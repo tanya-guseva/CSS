@@ -1,0 +1,27 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+ 	font-family: "Century Gothic","Open Sans",Helvetica,"Segoe UI",Georgia,Arial,sans-serif;
+	font-weight: lighter;
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.wrapper {
+	background-color: #fff1c6;
+	width: 70%;
+	margin: 0 auto;
+	height: 400px;
+}
+.wrapper h1 {
+	font-weight: 600;
+	font-size: italic;
+	text-align: center;
+	padding: 20px 0;
+}
+.wrapper p {
+	font-size: 14px;
+	padding: 0 10px;
+}
