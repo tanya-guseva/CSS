@@ -10,18 +10,42 @@ body {
 	background-repeat: no-repeat;
 }
 .wrapper {
-	background-color: #fff1c6;
-	width: 70%;
-	margin: 0 auto;
-	height: 400px;
+	color: #333;
 }
 .wrapper h1 {
 	font-weight: 600;
 	font-size: italic;
 	text-align: center;
-	padding: 20px 0;
+	padding: 10px 0 0 0;
+	margin: 0;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 .wrapper p {
-	font-size: 14px;
-	padding: 0 10px;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px;
+}
+.block_text {
+	width: 30%;
+	margin: 10px 13px;
+	border: 5px solid #616161;
+	background-color: #fffe96;
+	float: left;
+}
+.block_text .title {
+	font-variant: small-caps;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: underline;
+}
+.block_text p {
+	font-size: 15px;
+	text-align: justify;
+	padding: 10px 10px;
+	line-height: 1.5;
+}
+.box {
+	width: 70%;
+	margin: 0 auto;
 }
