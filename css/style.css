@@ -79,6 +79,7 @@ body {
 	height: 200px;
 	margin: 10px 0;
 	background: url(../img/flower.png);
+	background-position: 50% 50%;
 	border: 2px inset #333;
 	font-family: "Times";
 	font-size: 1.2em;
@@ -89,8 +90,9 @@ body {
 	width: 50%;
 	height: 30%;
 	margin: 10px 0;
-	background: #333;
+	background: url(../img/midlle_flower.jpg) no-repeat;
 	border: 3px outset #fff;
+	background-position: 50% 0;
 }
 .large_block {
 	width: 70%;
@@ -107,7 +109,7 @@ body {
 .midlle_block p {
 	font-family: "Arial";
 	font-size: 1.2em;
-	color: #fff;
+	color: blue;
 }
 .large_block p {
 	font-family: "Times";
