@@ -1,0 +1,95 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+	font-family: "Century Gothic","Open Sans",Helvetica,"Segoe UI",Georgia,Arial,sans-serif;
+	font-size: 14px;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background: #ccc;
+	height: 700px;
+}
+.header {
+	width: 100%;
+	background: #24b96a;
+}
+.nav {
+	width: 25%;
+	background: #fffe96;
+	float: left;
+}
+.content {
+	width: 50%;
+	background: #f6bdff;
+	float: left;
+}
+.info_box{
+	width: 25%;
+	background: #5afba6;
+	float: left;
+}
+.footer {
+	width: 100%;
+	height: 100px;
+	background: #333;
+	float: left;
+}
+.header .title {
+	font-size: 30px;
+	font-weight: 600;
+	padding: 20px 0 0 0;
+}
+.title_description {
+	font-size: 14px;
+	padding: 15px 0;
+}
+.header .title, .header .title_description {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+.nav .title, .content .title, .info_box .title {
+	font-weight: 600;
+	font-size: 17px;
+	color: #333;
+	padding: 20px;
+	margin: 0;
+}
+.nav_menu {
+	margin: 0 20px 10px 20px;
+}
+.nav_menu li {
+	list-style: none;
+	padding: 5px 0;
+}
+.nav_menu li a {
+	text-decoration: none;
+	color: #333;
+}
+.nav_menu li a:hover {
+	text-decoration: underline;
+	font-weight: 600;
+}
+.content .description, .info_box .description {
+	padding: 0 20px 15px 20px;
+	margin: 0;
+}
+.but {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #333;
+	background: #fff;
+	text-decoration: none;
+	color: #333;
+	font-weight: 600;
+}
+.block_but {
+	margin: 10px 50px;
+}
