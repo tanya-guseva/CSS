@@ -10,50 +10,59 @@ ul {
 	padding: 0;
 	margin: 0;
 }
+a {
+	outline: none;
+}
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
-	background: #ccc;
-	height: 700px;
+	background: url(../img/bg_content.jpg) no-repeat;
+	height: 750px;
 }
 .header {
 	width: 100%;
+	height: 100px;
 	background: #24b96a;
+	background: url(../img/bg_img.png) no-repeat;
 }
 .nav {
-	width: 25%;
+	width: 27%;
+	height: 320px;
 	background: #fffe96;
+	background: url(../img/pl.png) no-repeat;
 	float: left;
 }
 .content {
-	width: 50%;
-	background: #f6bdff;
+	width: 46%;
 	float: left;
 }
 .info_box{
 	width: 25%;
-	background: #5afba6;
-	float: left;
+	background: #333;
+	border: 8px solid #febd02;
+	float: right;
 }
 .footer {
 	width: 100%;
-	height: 100px;
+	height: 50px;
 	background: #333;
+	background: url(../img/bg_footer.jpg) no-repeat;
 	float: left;
 }
 .header .title {
 	font-size: 30px;
 	font-weight: 600;
-	padding: 20px 0 0 0;
+	color: #fff;
+	margin: 0;
 }
 .title_description {
 	font-size: 14px;
-	padding: 15px 0;
-}
-.header .title, .header .title_description {
 	color: #fff;
-	text-align: center;
 	margin: 0;
+}
+.header_text {
+	padding: 15px 10px;
+	float: left;
 }
 .nav .title, .content .title, .info_box .title {
 	font-weight: 600;
@@ -62,8 +71,14 @@ ul {
 	padding: 20px;
 	margin: 0;
 }
+.nav .title {
+	padding: 60px 60px 20px 60px;
+}
+.info_box .title, .info_box .description {
+	color: #fff;
+}
 .nav_menu {
-	margin: 0 20px 10px 20px;
+	margin: 0 65px 10px 65px;
 }
 .nav_menu li {
 	list-style: none;
@@ -71,11 +86,13 @@ ul {
 }
 .nav_menu li a {
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #333;
+	font-size: 12px;
 }
 .nav_menu li a:hover {
 	text-decoration: underline;
-	font-weight: 600;
+	color: 
 }
 .content .description, .info_box .description {
 	padding: 0 20px 15px 20px;
@@ -89,7 +106,38 @@ ul {
 	text-decoration: none;
 	color: #333;
 	font-weight: 600;
+	transition: all 0.5s ease-out 0s;
 }
 .block_but {
-	margin: 10px 50px;
+	margin: 10px 50px 20px 50px;
+}
+.but:hover {
+	background: #febd02;
+}
+.info_box_img {
+	margin: 10px 20px;
+}
+img {
+	width: 100%;
+}
+.header_img {
+	width: 76px;
+	margin: 10px 20px;
+	float: left;
+}
+.copyright {
+	float: left;
+}
+.copyright p{
+	color: #fff;
+	padding: 0 20px;
+}
+.icon {
+	width: 22%;
+	margin: 10px 10px 0 10px; 
+	float: right;
+}
+.icon ul li{
+	list-style: none;
+	display: inline-block;
 }
