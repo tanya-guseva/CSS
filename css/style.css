@@ -84,7 +84,6 @@ body {
 	font-family: "Times";
 	font-size: 1.2em;
 	color: red;
-	overflow: visible;
 }
 .midlle_block {
 	width: 50%;
@@ -118,4 +117,62 @@ body {
 }
 .small_block p, .midlle_block p, .large_block p {
 	padding: 10px;
+}
+table {
+	margin: 50px auto;
+	border: 2px solid #333;
+	border-collapse: collapse;
+}
+table td {
+	width: 10%;
+	text-align: center;
+}
+tbody tr.nchet {
+	background: #fff;
+}
+tbody tr.chet {
+	background: #ccc;
+}
+table thead {
+	background: #f6bdff;
+}
+table .first {
+	border-right: 3px solid #333;
+}
+table tr.main {
+	border-bottom: 3px solid #333;
+}
+table td, table th {
+	padding: 10px;
+	border-collapse: collapse;
+	border: 2px solid #333;
+}
+.main_b {
+	max-width: 100%;
+	background: #ccc;
+	height: 600px;
+}
+.box1, .box2, .box3, .box4 {
+	float: left;
+	margin: 10px;
+}
+.box1 {
+	width: 20%;
+	height: 30%;
+	background: #333;
+}
+.box2 {
+	width: 10%;
+	height: 20%;
+	background: #f6bdff;
+}
+.box3 {
+	width: 30%;
+	height: 50%;
+	background: #fffe96;
+}
+.box4 {
+	width: 34%;
+	height: 60%;
+	background: #24b96a;
 }
