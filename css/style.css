@@ -147,6 +147,30 @@ table td, table th {
 	border-collapse: collapse;
 	border: 2px solid #333;
 }
+table th:first-child {
+	background: #86f9d7;
+}
+table td:nth-child(odd) {
+	border: 3px dashed #ff4d3f;
+}
+table td:nth-last-child(even) {
+	background: #f4ff3f;
+}
+table td:last-child {
+	color: #3f5aff;
+	font-weight: 600;
+	font-size: 20px;
+}
+table th:first-letter {
+	color: #f90505;
+	font-size: 25px;
+}
+table td:before {
+	content: "-";
+}
+table td:after {
+	content: ";";
+}
 .main_b {
 	max-width: 100%;
 	background: #ccc;
