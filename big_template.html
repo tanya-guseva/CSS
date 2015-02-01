@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Указывает тип документа -->
+<html>
+<head>
+		<!-- Задаем кодировку страницы -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!-- Мета тег X-UA-Compatible управляет режимом отображением страниц в браузерах IE8+. IE=edge всегда использует последний доступный стандартный режим отображения независимо от <!DOCTYPE> -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Задав мета-тегу viewport значение “device-width”, мы говорим браузеру, что ширина области просмотра равняется ширине этого устройства, а не стандартной ширине в 980px, как он может предполагать по-умолчанию. Атрибут initial-scale определяет начальный масштаб страницы. Чем больше число, тем выше масштаб.-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Краткое описание содержимого веб-страницы -->
+		<meta name="description" content="Изучение HTML и CSS на практике">
+		<!-- Описание ключевых слов, встречающихся на странице. Полезен для поисковых систем -->
+		<!-- <meta name="keywords" content="HTML, META, метатег, тег, поисковая система"> -->
+		<!-- Подключение файла стилей -->
+		<link rel='stylesheet' type='text/css' href='css/big_template.css' />
+		 <title>GoodInc</title>
+</head> 
+<body>
+	<div class="header">
+		<div class="wrapper">
+			<div class="main_title">
+				<div class="logo_first"></div>
+				<div class="logo">
+					<p>g</p>
+				</div>
+				<div class="title"><p>Good Inc.</p></div>
+			</div>
+			<div class="contact">
+				<img src="img/clock.png" />
+				<input type="text" class="in general" placeholder="Contact" />
+				<input type="submit" class="but general" value="" />
+			</div>
+			<div class="newsletter">
+				<img src="img/map_red.png" />
+				<input type="text" class="in general" placeholder="Newsletter" />
+				<input type="submit" class="but general" value="" />
+			</div>
+		</div>
+	</div>
+	<div class="nav">
+		<div class="wrapper_nav">
+			<div class="map">
+				<img src="img/map_red.png" />
+			</div>
+			<div class="box_menu_left">
+				<ul class="menu">
+					<li><a href="#" class="general active">Portfolio</a></li>
+					<li><a href="#" class="general">Services</a></li>
+					<li><a href="#" class="general">Staff</a></li>
+					<li><a href="#" class="general">Articles</a></li>
+					<li><a href="#" class="general">Contact</a></li>
+				</ul>
+			</div>
+			<div class="box_menu_right">
+				<ul class="menu">
+					<li><a href="#" class="general quick">Quicklinks <img src="img/map_red.png" /></a></li>
+					<li><a href="#" class="general">Select from dropdown <img src="img/str_white.png" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="social">
+			<div class="search">
+				<input type="text" class="in general" placeholder="Search for somthing here" />
+				<input type="submit" class="but general" value="" />
+			</div>
+			<div class="findy">
+				<img src="img/map.png" />
+				<input type="text" class="in general" placeholder="Findy" />
+				<input type="submit" class="but general" value="" />
+			</div>
+			<div class="social_web">
+				<ul class="social_web_menu">
+					<li><a href="#" class="general"><img src="img/twitter_img.png"><span>Twitter</span></a></li>
+					<li><a href="#" class="general"><img src="img/facebook_img.png"><span>Facebook</span></a></li>
+					<li><a href="#" class="general"><img src="img/rss_img.png"><span>RSS</span></a></li>
+					<li><a href="#" class="general"><img src="img/mail_img.png"><span>Mail</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
