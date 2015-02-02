@@ -3,7 +3,7 @@ html, body {
     padding: 0px;
 }
 body {
-	font-family: "Nexa","Open Sans",Helvetica,"Segoe UI",Georgia,Arial,sans-serif;
+	font-family: "Nexa Light","Open Sans",Helvetica,"Segoe UI",Georgia,Arial,sans-serif;
 	font-size: 12px;
 	background: #ebebeb;
 }
@@ -17,29 +17,27 @@ p {
 a {
 	outline: none;
 }
-input[type="text"]::-webkit-input-placeholder{
+input[type="text"]::-webkit-input-placeholder, input[type="text"]::-moz-placeholder {
 	color: #959595;
-} 
-input[type="text"]::-moz-placeholder {
-    color: #959595;
-} 
+	font-family: "Nexa Bold";
+}  
 .header {
 	width: 100%;
 	height: 67px;
 	background: #373737;
 }
 .nav {
-	width: 80%;
+	width: 1262px;
 	height: 69px;
 	background: #474747;
 	float: right;
 }
 .wrapper {
 	margin: 0 auto;
-	width: 60%;
+	width: 940px;
 }
 .wrapper_nav {
-	width: 75%;
+	width: 940px;
 }
 .social {
 	position: relative;
@@ -119,8 +117,8 @@ input[type="text"]::-moz-placeholder {
 .logo_first {
 	width: 69px;
 	height: 67px;
-	background: url(../img/logo_first.png);
-	margin-left: 26px;
+	background: url(../img/logo_first.png) no-repeat;
+	margin-left: 27px;
 	position: absolute;
 }
 .logo {
@@ -133,11 +131,13 @@ input[type="text"]::-moz-placeholder {
 	text-align: center;
 	color: #fff;
 	font-weight: 600;
-	font-size: 40px;
+	font-family: "Nexa Bold";
+	font-size: 38px;
 }
 .title {
 	color: #fff;
-	font-size: 25px;
+	font-size: 23px;
+    font-family: "Nexa Light";
 	margin-left: 100px;
 	padding: 17px 10px;
 }
@@ -233,4 +233,166 @@ input[type="text"]::-moz-placeholder {
 }
 .quick {
 	color: #d5d5d5 !important;
+}
+.content {
+	position: relative;
+}
+.feature {
+	background: #f26c4f;
+	width: 630px;
+	height: 390px;
+	position: relative;
+	float: left;
+	border-right: 8px solid #f26c4f;
+	z-index: 1;
+}
+.info_feature {
+	background: #373737;
+	width: 302px;
+	height: 390px;
+	position: relative;
+	float: right;
+}
+.description_feature {
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.004);
+	position: absolute;
+	width: 350px;
+  	height: 62px;
+  	bottom: 1px;
+  	right: 0px;
+}
+.description_feature p {
+	font-size: 15px;
+	color: #fff;
+	padding: 22px 0 22px 30px;
+}
+.str {
+	width: 32px;
+	height: 31px;
+	position: absolute;
+	left: -17px;
+	top: 40px;
+}
+.str img {
+	width: 100%;
+}
+.info_feature .title_info_feature {
+	font-size: 19px;
+	color: #fff;
+	padding: 40px 38px 0 38px;
+}
+.description_info_feature {
+  font-family: "Arial";
+  color: rgb(167, 167, 167);
+  line-height: 1.917;
+  padding: 28px 38px 0 38px;
+}
+.add_info {
+	position: relative;
+	padding: 25px 46px 0 38px;
+}
+.add_info .plus {
+  font-size: 34px;
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  line-height: 0.6;
+  font-family: "Nexa Bold";
+}
+.add_info img {
+	padding-right: 6px;
+	float: right;
+}
+.add_info p {
+  font-family: "Arial";
+  color: rgb(167, 167, 167);
+  float: right;
+}
+.str_left {
+	width: 32px;
+	height: 33px;
+	background: #535353;
+	float: left;
+}
+.str_right {
+	width: 32px;
+	height: 33px;
+	background: #474747;
+	float: left;
+}
+.box_str {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.str_left p, .str_right p {
+	color: #fff;
+	font-family: "Quicksand";
+	font-size: 20px;
+	text-align: center;
+	padding-top: 4px;
+}
+.gallery {
+	padding-top: 15px;
+}
+.articles {
+	width: 300px;
+	height: 379px;
+	background: #fff;
+  	box-shadow: 0.5px 0.866px 0px 0px rgba(211, 211, 211, 0.004);
+  	float: left;
+  	margin-right: 20px;
+  	margin-top: 15px;
+}
+.articles:last-child {
+	margin-right: 0;
+}
+.im1 {
+	background: url(../img/image1.png);
+}
+.im2 {
+	background: url(../img/image2.png);
+}
+.im3 {
+	background: url(../img/image3.png);
+	background-position: 100% 100% !important;
+}
+.foto {
+	width: 300px;
+	height: 188px;
+	background-position: 50% 100%;
+	position: relative;
+	overflow: hidden;
+}
+.foto img {
+	width: 100%;
+}
+.articles_title {
+	font-size: 24px;
+	color: #4f4f4f;
+	font-weight: bold;
+	line-height: 1.24;
+	padding: 24px 20px 24px 28px;
+}
+.articles_discription {
+	font-size: 12px;
+  	font-family: "Arial";
+  	color: rgb(100, 100, 100);
+    line-height: 2;
+    padding: 0 20px 24px 28px;
+}
+.angle {
+	position: absolute;
+	right: -95px;
+	top: -100px;
+}
+.plus_angle {
+	position: absolute;
+	left: 83px;
+	bottom: 63px;
+}
+.plus_angle p {
+	color: #fff;
+	font-size: 35px;
 }
