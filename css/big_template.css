@@ -39,6 +39,9 @@ input[type="text"]::-webkit-input-placeholder, input[type="text"]::-moz-placehol
 .wrapper_nav {
 	width: 940px;
 }
+.nav.new {
+	height: 67px;
+}
 .social {
 	position: relative;
 }
@@ -763,6 +766,7 @@ input[type="text"]::-webkit-input-placeholder, input[type="text"]::-moz-placehol
     height: 482px;
     float: left;
     margin-top: 15px;
+    margin-bottom: 53px;
 }
 .text_box3 .text3 {
 	margin: 55px 10px 30px 50px;
@@ -799,11 +803,84 @@ input[type="text"]::-webkit-input-placeholder, input[type="text"]::-moz-placehol
 	margin-top: 45px;
 }
 .stats .number {
+	font-family: "Kozuka Mincho Pro B";
 	font-size: 48px;
 	color: rgb(71, 71, 71);
-    line-height: 0.5;
     font-weight: 600;
+    line-height: 0.5;
     text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.004);
     padding-left: 14px;
     float: left;
+}
+.static {
+	margin-top: 20px;
+}
+.static:first-child {
+	margin-top: 0px;
+}
+.static li {
+	list-style: none;
+	display: inline-block;
+}
+.static li:first-child {
+	width: 146px;
+}
+.static li:nth-child(2) {
+	width: 32px;
+	text-align: center;
+}
+.stats .description {
+	font-size: 14px;
+	color: rgb(98, 98, 98);
+  	line-height: 1.714;
+  	text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.004);
+  	padding-left: 10px;
+}
+.g {
+    font-size: 24px;
+    color: rgb(157, 157, 157);
+    line-height: 1;
+    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.004);
+    font-weight: bold;
+}
+.footer {
+    width: 100%;
+    height: 485px;
+    background-color: rgb(55, 55, 55);
+    float: left;
+}
+.foot {
+	float: right;
+	padding: 27px 0;
+}
+.gr_block {
+	background: #474747;
+	width: 940px;
+	height: 67px;
+	float: right;
+}
+.list_foot {
+	margin-top: 50px;
+	float: left;
+}
+.menu_foot li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 15px; 
+}
+.menu_foot li a {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.004);
+}
+.description_foot {
+	font-size: 11px;
+  	font-family: "Helvetica";
+	color: #7e7e7e;
+	padding-top: 25px;
+	line-height: 1.909;
+	float: left;
+}
+.description_block {
+	width: 760px;
 }
