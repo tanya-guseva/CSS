@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!-- Указывает тип документа -->
+<html>
+<head>
+		<!-- Задаем кодировку страницы -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!-- Мета тег X-UA-Compatible управляет режимом отображением страниц в браузерах IE8+. IE=edge всегда использует последний доступный стандартный режим отображения независимо от <!DOCTYPE> -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Задав мета-тегу viewport значение “device-width”, мы говорим браузеру, что ширина области просмотра равняется ширине этого устройства, а не стандартной ширине в 980px, как он может предполагать по-умолчанию. Атрибут initial-scale определяет начальный масштаб страницы. Чем больше число, тем выше масштаб.-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Краткое описание содержимого веб-страницы -->
+		<meta name="description" content="Изучение HTML и CSS на практике">
+		<!-- Описание ключевых слов, встречающихся на странице. Полезен для поисковых систем -->
+		<!-- <meta name="keywords" content="HTML, META, метатег, тег, поисковая система"> -->
+		<!-- Подключение файла стилей -->
+		<link rel='stylesheet' type='text/css' href='css/big_template.css' />
+		 <title>JavaScript</title>
+</head> 
+<body>
+ 
+	<script type="text/javascript">
+	   var a=1, b=-8, c=12;
+	   var D = b*b - 4*a*c;
+	   var x,x1;
+	   if (D<0) {
+	   	document.write("Нет решений!");
+	   }
+	   else if (D>0) {
+	   	x = (-b-Math.sqrt(D))/2*a;
+	   	x1 = (-b+Math.sqrt(D))/2*a;
+	   	document.write("Уравнение имеет 2 корня: " + "x1= " + x + " x2= " + x1);
+	   }
+	   else {
+	   	x = -b/2*a;
+	   	document.write("Уравнение имеет 1 корень: " + x);
+	   }
+	</script>
+ 
+</body>
+</html>
